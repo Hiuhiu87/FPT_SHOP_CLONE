@@ -1,0 +1,205 @@
+*{
+    box-sizing: border-box;
+}
+
+.nav1{
+    width: 100%;
+    background-color: rgb(205, 24, 24);
+    box-shadow: 0 0 5px gray;
+}
+
+.nav-static{
+    max-width: 1700px;
+    line-height: 60px;
+    background-color: rgb(205, 24, 24);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.logo-image{
+    width: 250px;
+    color: white;
+}
+
+#search-type{
+    width: 496px;
+    height: 38px;
+}
+
+#search-button{
+    /* width: 60px; */
+    height: 30px;
+}
+
+.nav-info-list li{
+    display: inline-block;
+    padding: 0 15px;
+    color: white;
+}
+
+/* NAV2 */
+.nav2{
+    width: 100%;
+    line-height: 40px;
+    background-color: gray;
+    box-shadow: 0 0 5px gray;
+}
+
+.nav2-list{
+    max-width: 1700px;
+    margin: 0 auto;
+}
+
+.nav2-list li{
+    display: inline;
+    padding: 5px 22px;
+    color: black;
+    font-size: 19.5px;
+}
+
+.nav2-list>li:first-child{
+    background: url('/img/smartphone-call.png') no-repeat 0.5px;
+    /* background-color: white; */
+}
+
+.nav2-list>li:nth-child(2){
+    background: url('/img/laptop.png') no-repeat 0.5px;
+    /* background-color: white; */
+}.nav2-list>li:nth-child(3){
+    background: url('/img/tablet.png') no-repeat 0.5px;
+    /* background-color: white; */
+}.nav2-list>li:nth-child(4){
+    background: url('/img/apple-logo.png') no-repeat 0.5px;
+    /* background-color: white; */
+}.nav2-list>li:nth-child(5){
+    background: url('/img/monitor.png') no-repeat 0.5px;
+    /* background-color: white; */
+}.nav2-list>li:nth-child(6){
+    background: url('/img/adapter.png') no-repeat 0.5px;
+    /* background-color: white; */
+}.nav2-list>li:nth-child(7){
+    background: url('/img/reload.png') no-repeat 0.5px;
+    /* background-color: white; */
+}.nav2-list>li:nth-child(8){
+    background: url('/img/home.png') no-repeat 0.5px;
+    /* background-color: white; */
+}.nav2-list>li:nth-child(9){
+    background: url('/img/sim.png') no-repeat 0.5px;
+    /* background-color: white; */
+}.nav2-list>li:last-child{
+    background: url('/img/discount.png') no-repeat 0.5px;
+    /* background-color: white; */
+}
+
+.container{
+    max-width: 1700px;
+    margin: 0 auto;
+}
+
+.top-banner{
+    width: 100%;
+    height: 350px;
+    background-image: url('/img/banner1.jpg');
+    background-size: 100% 100%;
+}
+
+.main-banner{
+    width: 100%;
+    height: auto;
+    /* border: 2px solid gray; */
+    border-radius: 15px;
+    box-shadow: 0 0 6px gray;
+    display: grid;
+    grid-template-columns: 70% 30%;
+    grid-template-rows: max-content;
+    grid-column-gap: 40px;
+}
+
+.items-main-left{
+    width: 1190px;
+}
+
+.main-banner-right1 img{
+    width: 465px;
+}
+
+.main-banner-right2 img{
+    width: 468px;
+}
+
+.main-banner img{
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.main-banner-items h5{
+    width: 300px;
+    margin: 10px 5px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #6c757c;
+}
+
+.product-banner{
+    display: flex;
+    width: 450px;
+    align-items: center;
+}
+
+.product-banner img{
+    border: 1px solid rgb(73, 72, 72);
+}
+
+.product-banner b{
+    margin-left: 20px;
+}
+
+.product-list{
+    width: 100%;
+    height: 350px;
+    margin: 15px;
+}
+
+.product-list-items picture{
+    background-color: gray;
+    margin: 0 auto;
+    border-radius: 80px;
+    width: 95px;
+    height: 95px;
+}
+
+.product-list-top{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+
+.product-list-bottom{
+    display: flex;
+    justify-content: space-around;
+}
+
+.product-list-items{
+    width: 200px;
+    height: 161px;
+    display: flex;
+    flex-direction: column;
+    padding: 25px 40px;
+}
+
+.product-list-items:hover{
+    box-shadow: 0 0 6px gray;
+}
+
+.product-list-items p{
+    text-align: center;
+    /* width: 180px; */
+    margin-top: 4px;
+}
+
+.product-list-items img{
+    display: block;
+    margin: 12px auto;
+}
